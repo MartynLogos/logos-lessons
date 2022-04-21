@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .block {
+    margin: 100px;
+    height: 100px;
+    width: 100px;
+    background: green;
+    animation: trafficLight 3s cubic-bezier(0,1,1,0) infinite;
+}
+
+@keyframes trafficLight {
+    0% {
+        background: red;
+    }
+    50% {
+        transform: rotate(45deg);
+        background: yellow;
+        border-radius: 50%;
+    }
+    100% {
+        background: green;
+        transform: rotate(360deg);
+    }
+}
+
+.block:hover {
+    animation-play-state: paused;
+} */
+
+
+/* .astro {
+    height: 193px;
+    width: 151px;
+    background: url('astro.png');
+    animation: astronaut 0.8s steps(20) infinite; 
+}
+
+@keyframes astronaut {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -3025px;
+    }
+} */
+
+
+.square {
+    /* margin: 200px; */
+    width: 100px;
+    height: 100px;
+    animation: square 5s linear infinite;
+    /* position: relative; */
+}
+
+@keyframes square {
+    0% {
+        background: white;
+        /* margin: 200px; */
+        /* margin: ; */
+        /* left */
+        /* transform: translate(0, 0); */
+    }
+    25% {
+        background: green;
+        /* transform: rotate(360deg); */
+        /* margin-left: 200px; */
+        /* margin-top: 0; */
+        border-radius: 0;
+        /* transform: translate(200px, 0) rotate(45deg); */
+        transform:rotate(45deg) translate(200px, 0)
+    }
+    50% {
+        background: yellow;
+        border-radius: 50%;
+        transform: translate(200px, 200px);
+        /* margin-top: 200px;
+        margin-left: 200px; */
+    }
+    75% {
+        background: red;
+        /* transform: rotate(360deg); */
+        /* margin-top: 200px; */
+        /* margin-left: 0; */
+        border-radius: 0;
+        /* transform: translate(0, 200px) rotate(45deg); */
+        transform: rotate(45deg) translate(0, 200px);
+    }
+    100% {
+        background: white;
+        /* transform: rotate(180deg); */
+    }
+}
+.square:hover {
+    animation-play-state: paused;
+}

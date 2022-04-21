@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .card {
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card__img {
+    width: 100px;
+    height: 100px;
+}
+
+.card::after {
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" fill="lightblue" viewBox="0 0 24 24"><path d="M10,18a1,1,0,0,0,1-1V11a1,1,0,0,0-2,0v6A1,1,0,0,0,10,18ZM20,6H16V5a3,3,0,0,0-3-3H11A3,3,0,0,0,8,5V6H4A1,1,0,0,0,4,8H5V19a3,3,0,0,0,3,3h8a3,3,0,0,0,3-3V8h1a1,1,0,0,0,0-2ZM10,5a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1V6H10Zm7,14a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1V8H17Zm-3-1a1,1,0,0,0,1-1V11a1,1,0,0,0-2,0v6A1,1,0,0,0,14,18Z"/></svg>');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 0;
+    background: red;
+    border-radius: 50%;
+    display: none;
+}
+
+.card:hover::after {
+    opacity: 1;
+    display: block;
+    transition: 0.5s;
+} */
+
+
+/* .icons {
+    margin: 100px auto;
+    width: 700px;
+    height: 200px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+    height: 97px;
+    background-image: url('https://idg.net.ua/blog/wp-content/uploads/sprites2.png');
+}
+
+.facebook {
+    background-position: 0 -100px;
+}
+
+.twitter {
+    background-position: -100px 0;
+}
+
+.youtube {
+    background-position: -200px 0;
+}
+
+.instagram {
+    background-position: -300px 0;
+}
+
+.linkedin {
+    background-position: -400px 0;
+}
+
+.facebook:hover {
+    background-position: 0 0 ;
+} */
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.header__img {
+    width: 60px;
+}
+
+figure {
+    width: 400px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure__img {
+    width: 300px;
+}
+.figure__text {
+    color: wheat;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__contacts, .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-nav .navbar-link, .footer__contacts .navbar-link {
+    color: white;
+    margin: 20px;
+} */
+
+/* .block {
+    width: 700px;
+    width: 100%;
+    max-width: 1400px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+} */
+
+/* .landmark {
+    margin: 100px auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.landmark-img {
+    width: 500px;
+}
+
+.landmark-description__paragraph,
+.landmark-description__header {
+    margin: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .landmark {
+        flex-wrap: wrap;
+        width: 500px;
+    }
+} */
+
+/* 
+.block {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+@media screen and (max-width: 1440px) {
+    .block {
+        width: 60%;
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .block {
+        width: 80%;
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block {
+        width: 100%;
+        background-color: silver;
+    }
+} */
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.header__img {
+    width: 60px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+.navbar-link:hover {
+    transition: .2s;
+    color: orange;
+    text-decoration: underline;
+}
+
+.header-dropdown {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .header-nav {
+        display: none;
+    }
+
+    .header-dropdown {
+        display: block;
+    }
+}
+
+
+.header-dropdown__icon {
+    width: 30px;
+}

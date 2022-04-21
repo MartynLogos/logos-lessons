@@ -1,0 +1,215 @@
+/* .block {
+    width: 60%;
+    height: 300px;
+    position: relative;
+    background: silver;
+    bottom: 0;
+    right: 0;
+}
+
+.container {
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    background: green;
+    bottom: 0;
+    right: 0;
+}
+
+.top {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: sticky;
+    top: 0; 
+}
+*/
+/* 
+* {
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.bg-silver {
+    background: gray;
+}
+
+
+.block {
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    background: yellow;
+    border: 10px solid red;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sizing {
+    box-sizing: border-box;
+}
+
+.content {
+    box-sizing: content-box;
+}
+
+.child {
+    width: 100%;
+    box-sizing: border-box;
+    background: green;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header {
+    position: relative;
+}
+
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header-logo {
+    width: 70px;
+    float: left;
+}
+
+.navbar {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+
+.navbar-link {
+    margin: 10px;
+    padding: 10px;
+}
+
+.search-input {
+    float: right;
+    clear: both;
+} */
+
+/* .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px auto;
+    width: 300px;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img {
+    max-width: 300px;
+    flex: 0 1 auto;
+}
+
+.card-description {
+    padding: 10px;
+    flex: 1 0 auto;
+}
+
+
+.selected-card .card-btn {
+    order: -1;
+}
+.selected-card .card-description {
+    order: 0;
+}
+.selected-card .card-img {
+    order: 1;
+} */
+
+/*
+.block {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.first {
+    padding: 5px;
+}
+
+.third {
+    padding: 15px;
+}
+
+.fourth {
+    padding: 25px;
+}
+*/
+
+/* span {
+    font-family: garamond;
+    font-size: 25px;
+    color: red;
+} */
+
+.lorem-text {
+    color: red
+}
+
+.lorem-text::first-line {
+    color: green
+}
+
+.search-input {
+    outline: none;
+    border: 1px solid black;
+}
+.search-input::placeholder {
+    color: red;
+}
+
+
+.search-input:focus {
+    border-color: blue;
+}
+
+.lorem-text:hover {
+    color: blue;
+}
+
+.btn:visited {
+    color: green
+}
+
+.view-btn {
+    color: black;
+}
+
+.view-btn:visited {
+    color: brown;
+}
+
+.block {
+    color: black;
+}
+
+li: {
+    background-color: blue;
+}
+
+button: {
+    display: none;
+}
