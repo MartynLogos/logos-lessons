@@ -1,0 +1,31 @@
+p {
+    color: green;
+}
+
+#another {
+    color: purple;
+}
+
+.green-text.text {
+    color: brown;
+}
+
+p#some.green-text.text {
+    color: green
+}
+
+p#some.green-text.text[name=hook] {
+    color: red;
+}
+
+.text {
+    color: orange;
+}
+
+[name=hook] {
+    color: aqua;
+}
+
+.movie-card-description {
+    color:deeppink;
+}
