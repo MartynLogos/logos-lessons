@@ -4,16 +4,17 @@
 }
 
 
-// tr.active {
-//     background: #b2b2b2;
-// }
 
 .table {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-    animation-delay: 2s;
+    animation-delay: 3s;
     
 }
 
 .bg-red {
     color: red !important;
+}
+
+.bg-orange {
+    background-color: orange;
 }
