@@ -1,1 +1,1 @@
-hello
+Repository for all HTML/CSS/JS Lessons for Web-Development Group in Logos IT Academy.
