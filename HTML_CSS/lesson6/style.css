@@ -6,15 +6,15 @@
 .table {
   -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .bg-red {
   color: red !important;
 }
 
-.bg-yellow {
-  color: yellow;
+.bg-orange {
+  background-color: orange;
 }
 /*# sourceMappingURL=style.css.map */
