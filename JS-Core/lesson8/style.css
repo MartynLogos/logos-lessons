@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 100px auto;
+    width: 300px;
+    height: 100px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-wrapper {
+    /* padding: 50px; */
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 20px solid red; */
+}
+
+.car {
+    width: 50px;
+}
+
+.name-field-error {
+    color: red;
+    font-weight: 900;
+    font-family: garamond;
+    display: none;
+}
+
+.toggle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.checked {
+    background: green;
+}
+
+/* .removed {
+    background: none;
+} */
