@@ -267,4 +267,5 @@ let products = [
 let a = products.slice(2,4);
 
 console.log(a);
+console.log(a);
 
